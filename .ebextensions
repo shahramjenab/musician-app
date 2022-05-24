@@ -5,4 +5,4 @@
   content: |
     #!/bin/bash
     set -xe
-    /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy nginx
+    /opt/elasticbeanstalk/bin/healthd-track-pidfile --web nginx
